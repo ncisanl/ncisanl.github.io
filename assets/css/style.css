@@ -17,7 +17,7 @@ body {
   color: white;
 }
 
-#Home-Section {
+#homeSection {
   background-image: url("../img/bg-home.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,6 +36,35 @@ body {
 .img-profile {
   width: 60%;
   border-radius: 10%;
+}
+
+.box {
+  position: relative;
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 102%;
+  background: white;
+  left: -15px;
+  top: 19px;
+}
+
+.box::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  left: -22px;
+  top: 4px;
+}
+
+.text-h3-education{
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {
