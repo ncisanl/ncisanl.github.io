@@ -43,7 +43,7 @@ body {
 }
 
 .box::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 3px;
   height: 102%;
@@ -53,7 +53,7 @@ body {
 }
 
 .box::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 16px;
   height: 16px;
@@ -63,8 +63,19 @@ body {
   top: 4px;
 }
 
-.text-h3-education{
+.text-h3-education {
   font-size: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.icon-contact {
+  font-size: 20px;
+  color: #ffffff;
+  float: left;
+  margin-right: 10px;
 }
 
 #portafolio {
@@ -76,6 +87,10 @@ body {
 
 .width-my-card {
   width: 100%;
+}
+
+.color-text-title {
+  color: #212529;
 }
 
 @media (max-width: 768px) {
@@ -92,7 +107,7 @@ body {
     width: 90%;
   }
 
-  .mt3-modify{
+  .mt3-modify {
     margin-top: 1rem !important;
   }
 }
