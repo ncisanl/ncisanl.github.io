@@ -90,7 +90,7 @@ body {
 }
 
 .color-text-title {
-  color: #212529 !important;
+  color: #212529;
 }
 
 @media (max-width: 768px) {
